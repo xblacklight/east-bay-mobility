@@ -1,26 +1,21 @@
 # East Bay Mobility
 
-Practice website for a concept Oakland dispatch. It books wheelchair, companion, dialysis, and discharge rides across Alameda and Contra Costa the way a small desk actually can: door-through-door, quoted before the van leaves, same-day only where the board can keep the promise.
+Draft website for East Bay Mobility, Rafat Raie, T.E.’s municipal traffic engineering practice in Walnut Creek.
 
-This is not a licensed carrier. The phone number uses the reserved 555 exchange. The email uses `.example`. The booking form stores a practice request in the browser and does not dispatch anything.
+The firm advises public agencies on traffic signals and operations, multimodal safety, intelligent transportation systems, parking technology, grants, and litigation support.
+
+Biography on the site follows the public record: City Traffic Engineer for Walnut Creek (1990–2018), Associate Traffic Engineer in San Leandro (1988–1990), UC Berkeley TechTransfer instructor since 2001, and president of East Bay Mobility as of 2026. The Grok project that was supposed to brief this site is private, so details that live only in that chat are not invented here.
 
 ## Pages
 
-- `index.html` — the desk, a sample board, and a sample quote
-- `services.html` — five ride types and the jobs the desk refuses
-- `coverage.html` — same-day core, day-ahead cities, cross-bay
-- `facilities.html` — intake for discharge planners and clinics
-- `book.html` — four-step practice request
-- `about.html` — operating rules, and how this differs from East Bay Paratransit
+- `index.html` — firm overview
+- `services.html` — signal, safety, ITS, parking, grants, litigation
+- `approach.html` — how an agency engagement starts
+- `about.html` — the principal
+- `contact.html` — inquiry kept in the browser; nothing is emailed
 
 ## Preview
-
-From this folder:
 
 ```bash
 python3 -m http.server 8765
 ```
-
-Open `http://127.0.0.1:8765`.
-
-The Grok project linked with the build request is private, so the site is built from this repo’s brief and from how East Bay non-emergency transportation actually works: families and facilities are both customers, geography is the capacity limit, and clinical transport is a different job.
